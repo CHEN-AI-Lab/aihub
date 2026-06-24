@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+*.db
+*.sqlite
+.env
+.env.local
+.env.production
+turbo.json
+.next-env.d.ts

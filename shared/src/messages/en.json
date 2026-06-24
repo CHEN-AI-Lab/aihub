@@ -1,0 +1,235 @@
+{
+  "site": {
+    "name": "AIHub",
+    "description": "AI Tool Directory & Review Platform",
+    "slogan": "Discover the Best AI Tools",
+    "subtitle": "AI tool directory & review platform — Find the perfect AI product for your needs"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "submit": "Submit Tool",
+    "search": "Search",
+    "pricing": "Promote",
+    "about": "About"
+  },
+  "categories": {
+    "chatbot": { "name": "Chatbots", "desc": "AI conversational assistants & chatbots" },
+    "image-generation": { "name": "Image Generation", "desc": "AI painting and image creation tools" },
+    "video-generation": { "name": "Video Generation", "desc": "AI video creation and editing" },
+    "coding": { "name": "Coding", "desc": "AI programming and code assistants" },
+    "audio": { "name": "Audio", "desc": "AI speech synthesis and music generation" },
+    "productivity": { "name": "Productivity", "desc": "AI office automation and productivity tools" },
+    "data-analysis": { "name": "Data Analysis", "desc": "AI data processing and visualization" },
+    "ai-search": { "name": "AI Search", "desc": "AI-powered search engines and information retrieval" }
+  },
+  "home": {
+    "hero_search_placeholder": "Search AI tools by name or feature...",
+    "search_button": "Search",
+    "featured_title": "⭐ Featured",
+    "latest_title": "🆕 Latest",
+    "view_all": "View All →",
+    "cta_title": "Have a great AI tool to share?",
+    "cta_desc": "Submit your tool and let more users discover it",
+    "cta_button": "Submit Tool",
+    "stats_tools": "Tools",
+    "stats_categories": "Categories",
+    "stats_reviews": "Reviews",
+    "stats_year": "Since"
+  },
+  "category": {
+    "title": "All Categories",
+    "subtitle": "Browse AI tools by category",
+    "back": "← All Categories",
+    "items_count": "{count} tools",
+    "empty": "No tools in this category yet",
+    "submit_link": "Submit Tool →"
+  },
+  "tool": {
+    "featured_badge": "Featured",
+    "visit_website": "Visit Website →",
+    "use_now": "Use Now",
+    "reviews_title": "User Reviews",
+    "reviews_empty": "No reviews yet. Be the first to write one!",
+    "rating_stars": "{rating} Stars",
+    "pros": "👍 Pros",
+    "cons": "👎 Cons",
+    "features": "Key Features",
+    "description": "Description",
+    "info": "Info",
+    "category_label": "Category",
+    "price_label": "Price",
+    "created_label": "Added",
+    "related": "Related",
+    "recommended_by": "{count} upvotes",
+    "breadcrumb_home": "Home",
+    "pricing_free": "Free",
+    "pricing_paid": "Paid",
+    "pricing_freemium": "Freemium"
+  },
+  "tools": {
+    "chatgpt": {
+      "desc": "OpenAI's flagship AI chat tool for text generation, analysis, and creative writing",
+      "longDesc": "ChatGPT is OpenAI's advanced AI conversational assistant built on GPT models. It handles natural conversation, questions, writing, coding, translation, and more.",
+      "features": ["Multi-modal interaction", "Web search", "File upload analysis", "DALL-E image generation", "Voice conversation"],
+      "pros": ["Comprehensive features", "Fast response", "Continuous updates", "Free tier is useful"],
+      "cons": ["Chinese understanding can drift", "Pro is expensive", "Peak hours queuing"],
+      "pricingDetail": "Free tier (GPT-3.5), Plus $20/mo, Pro $200/mo"
+    },
+    "claude": {
+      "desc": "Anthropic's safe and intelligent AI assistant, excellent at long-form analysis and code",
+      "longDesc": "Claude is Anthropic's AI assistant series renowned for safety and long-context processing. Claude 3.5 Sonnet excels at coding and reasoning with a 200K token context window.",
+      "features": ["Long context window", "High quality code", "Safety alignment", "Artifacts feature", "Project collaboration"],
+      "pros": ["Best for long text", "Strong coding skills", "Good safety", "Fluent Chinese"],
+      "cons": ["File upload limits", "No image generation", "Less frequent updates"],
+      "pricingDetail": "Free tier available, Pro $20/mo, Team $25/person/mo"
+    },
+    "github-copilot": {
+      "desc": "AI coding assistant with real-time code completion and generation",
+      "longDesc": "GitHub Copilot is an AI coding assistant by GitHub and OpenAI integrated into VS Code, JetBrains, and other IDEs. It supports code completion, function generation, test writing, and code explanation.",
+      "features": ["Real-time code completion", "Multi-language support", "IDE integration", "Code explanation", "Chat mode"],
+      "pros": ["Massive productivity boost", "Broad language support", "Deep IDE integration"],
+      "cons": ["Requires internet", "Sometimes generates unsafe code", "Individual plan is pricey"],
+      "pricingDetail": "Individual $10/mo, Business $19/user/mo"
+    },
+    "midjourney": {
+      "desc": "Top-tier AI image generation tool with exceptional artistic style",
+      "longDesc": "Midjourney is one of the most popular AI image generators, known for its distinctive artistic style and high-quality output. Used via Discord with text-to-image and image-to-image capabilities.",
+      "features": ["Text-to-image", "Image-to-image", "Style consistency", "Upscaling & variations", "Parameter control"],
+      "pros": ["Exceptional image quality", "Strong artistic feel", "Diverse styles", "Active community"],
+      "cons": ["Requires Discord", "Relatively expensive", "Chinese prompts underperform"],
+      "pricingDetail": "Basic $10/mo, Standard $30/mo, Pro $60/mo"
+    },
+    "suno": {
+      "desc": "AI music generation — turn text into full songs",
+      "longDesc": "Suno is a leading AI music platform. Just provide lyrics and style description to generate complete songs with vocals, instruments, and mixing. Supports multiple genres and languages.",
+      "features": ["Text-to-music", "Multiple music styles", "Multi-language support", "Lyric editing", "Audio extension"],
+      "pros": ["Extremely low barrier to creation", "Impressive music quality", "Rich styles"],
+      "cons": ["Limited free credits", "Chinese lyric pronunciation issues", "Copyright concerns"],
+      "pricingDetail": "Free 5 songs/day, Pro $10/mo (500 songs), Premier $30/mo (2000 songs)"
+    },
+    "cursor": {
+      "desc": "AI-first code editor with built-in intelligent coding features",
+      "longDesc": "Cursor is an AI-native code editor based on VS Code with deep AI integration. Features include Tab completion, multi-file editing, AI Chat, and codebase understanding.",
+      "features": ["AI completion", "Multi-file editing", "Codebase indexing", "Agent mode", "Terminal integration"],
+      "pros": ["Significant productivity boost", "Accurate code understanding", "Free tier is useful"],
+      "cons": ["Dependent on VS Code", "Slow indexing for large projects", "Enterprise pricing high"],
+      "pricingDetail": "Free tier available, Pro $20/mo"
+    },
+    "gemini": {
+      "desc": "Google's multimodal AI assistant with deep Google ecosystem integration",
+      "longDesc": "Gemini is Google's AI assistant series supporting text, image, audio, and video multimodal input with seamless Google service integration.",
+      "features": ["Multimodal input", "Google ecosystem integration", "Long context", "Real-time info", "File analysis"],
+      "pros": ["Powerful free tier", "Seamless Google integration", "Good multimodal abilities"],
+      "cons": ["Mediocre Chinese optimization", "Privacy concerns", "Regional restrictions"],
+      "pricingDetail": "Free tier available, Advanced $19.99/mo"
+    },
+    "perplexity": {
+      "desc": "AI search engine with cited real-time answers",
+      "longDesc": "Perplexity is an AI-powered search engine that provides real-time answers with cited sources for research and information retrieval.",
+      "features": ["Real-time search", "Cited sources", "Research mode", "File upload analysis", "Collections"],
+      "pros": ["Accurate traceable answers", "Research efficiency", "Great free tier"],
+      "cons": ["Less depth than ChatGPT", "Access restrictions in China", "Pro value unclear"],
+      "pricingDetail": "Free tier available, Pro $20/mo"
+    },
+    "runway": {
+      "desc": "AI video generation and editing platform with Gen-3 model",
+      "longDesc": "Runway is a leading AI video generation platform. Its Gen-3 Alpha model produces high-quality video content for creators and professionals.",
+      "features": ["Text-to-video", "Image-to-video", "Video editing", "Motion brush", "Green screen removal"],
+      "pros": ["Industry-leading video quality", "Professional toolset", "Rapid updates"],
+      "cons": ["Expensive", "Weak Chinese understanding", "Generation speed could improve"],
+      "pricingDetail": "Basic $12/mo, Standard $28/mo, Pro $76/mo"
+    },
+    "notion-ai": {
+      "desc": "AI-powered note-taking and project management platform",
+      "longDesc": "Notion AI brings artificial intelligence capabilities into Notion's notes, docs, and project management workflows.",
+      "features": ["AI writing", "Auto summaries", "Translation", "Brainstorming", "Database AI"],
+      "pros": ["Deep Notion integration", "Strong writing assistance", "Great team collaboration"],
+      "cons": ["Requires Notion subscription", "AI features are basic", "Slow access in China"],
+      "pricingDetail": "AI add-on $10/person/mo"
+    },
+    "devin": {
+      "desc": "Fully autonomous AI software engineer that completes coding tasks independently",
+      "longDesc": "Devin by Cognition Labs is the world's first fully autonomous AI software engineer. It understands complex tasks, writes code, debugs, and deploys.",
+      "features": ["Autonomous programming", "Debug & fix", "Deploy", "Self-learning", "Project management"],
+      "pros": ["Completes projects independently", "Reduces manual coding", "Continuous learning"],
+      "cons": ["Extremely expensive", "Complex projects still need human", "Steep learning curve"],
+      "pricingDetail": "Starting at $500/mo (enterprise pricing)"
+    }
+  },
+  "search": {
+    "title": "Search AI Tools",
+    "placeholder": "Type a tool name or keyword...",
+    "button": "🔍 Search",
+    "results": "Search \"{query}\", found {count} results",
+    "empty_title": "😕",
+    "empty_desc": "No matching tools found",
+    "submit_link": "Submit Tool →",
+    "popular_categories": "Popular Categories",
+    "popular_tools": "Popular Tools",
+    "view_detail": "View Details →"
+  },
+  "submit": {
+    "title": "Submit an AI Tool",
+    "subtitle": "Recommend your favorite AI tool to more users. We'll review and publish it.",
+    "name": "Tool Name *", "name_placeholder": "e.g., ChatGPT",
+    "url": "Website URL *", "url_placeholder": "https://",
+    "description": "Short Description *", "description_placeholder": "Describe this tool in one sentence",
+    "detail": "Detailed Description", "detail_placeholder": "Describe features, use cases, etc.",
+    "category": "Category *", "category_placeholder": "Select a category",
+    "logo_url": "Logo URL", "logo_url_placeholder": "https://",
+    "pricing_model": "Pricing Model", "pricing_placeholder": "Select...",
+    "pricing_free": "Free", "pricing_paid": "Paid", "pricing_freemium": "Freemium",
+    "pricing_detail": "Pricing Details", "pricing_detail_placeholder": "e.g., Free tier available, Pro $20/mo",
+    "submit_button": "Submit for Review",
+    "disclaimer": "By submitting, you agree to our review process ✨"
+  },
+  "pricing": {
+    "title": "Promote Your Tool",
+    "subtitle": "Showcase your AI tool to a large Chinese-speaking audience and boost user acquisition",
+    "stats_users": "Monthly Active Users", "stats_tools": "Tools Listed", "stats_chinese": "Chinese Users",
+    "free_plan_name": "Free Listing", "free_plan_price": "¥0",
+    "free_features": ["Basic info display", "Listed by category", "Searchable", "User reviews"],
+    "free_cta": "Submit Tool",
+    "featured_plan_name": "Featured Listing", "featured_plan_price": "¥299", "featured_plan_period": "/mo", "featured_badge": "Recommended",
+    "featured_features": ["★ All Free features", "Homepage featured slot", "Category top placement", "Featured badge", "Social media promotion"],
+    "featured_cta": "Contact Us",
+    "enterprise_plan_name": "Enterprise", "enterprise_plan_price": "Custom",
+    "enterprise_features": ["★ All Featured features", "Hero banner ad", "Dedicated review article", "API data access", "Brand landing page"],
+    "enterprise_cta": "Contact Us",
+    "cta_title": "Not sure which plan?",
+    "cta_desc": "All new submissions get a 7-day free trial — upgrade when you see results",
+    "cta_button": "Start Free →"
+  },
+  "footer": {
+    "tagline": "Discover the best AI tools. Let AI empower your work and life.",
+    "browse": "Browse", "biz": "Business", "about": "About",
+    "copyright": "© 2026 AIHub. All listed AI tools are property of their respective owners."
+  },
+  "about": {
+    "title": "About AIHub",
+    "subtitle": "Discover the best AI tools. Let AI empower your work and life.",
+    "mission_title": "Our Mission",
+    "mission_desc": "AIHub is a curated AI tool directory and review platform. We handpick the best AI products from around the world, providing objective and comprehensive reviews for users.",
+    "features_title": "Why AIHub",
+    "features": [
+      "Curated Selection — Hand-picked quality AI tools",
+      "Honest Reviews — Real user ratings, multi-dimensional scoring",
+      "Always Fresh — Track the latest AI products and trends",
+      "Localized — Optimized for Chinese-speaking users"
+    ],
+    "stats_tools": "AI Tools Listed",
+    "stats_categories": "Categories",
+    "stats_reviews": "User Reviews",
+    "team_title": "About Us",
+    "team_desc": "AIHub was founded by a team of engineers and product managers who are passionate about AI technology. We believe AI is transforming the world and want to help everyone discover great AI tools.",
+    "contact_title": "Contact Us",
+    "contact_desc": "For questions or partnership inquiries, reach out to us",
+    "email": "hi@aihub.com",
+    "cta_title": "Want to list your AI tool?",
+    "cta_button": "Submit Tool"
+  },
+  "common": {
+    "loading": "Loading...", "error": "Something went wrong", "retry": "Retry", "not_found": "Page not found"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "site": {
+    "name": "AIHub",
+    "description": "AI 工具导航与评测平台",
+    "slogan": "发现最优秀的 AI 工具",
+    "subtitle": "中文 AI 工具导航与评测平台 — 帮你找到最适合的 AI 产品"
+  },
+  "nav": {
+    "home": "首页",
+    "categories": "分类",
+    "submit": "提交工具",
+    "search": "搜索",
+    "pricing": "推广合作",
+    "about": "关于我们"
+  },
+  "categories": {
+    "chatbot": { "name": "聊天机器人", "desc": "AI 对话助手，智能客服" },
+    "image-generation": { "name": "图像生成", "desc": "AI 绘画和图片创作工具" },
+    "video-generation": { "name": "视频生成", "desc": "AI 视频制作和编辑" },
+    "coding": { "name": "编程助手", "desc": "AI 编程和代码辅助工具" },
+    "audio": { "name": "音频工具", "desc": "AI 语音合成和音乐生成" },
+    "productivity": { "name": "办公效率", "desc": "AI 办公自动化和效率工具" },
+    "data-analysis": { "name": "数据分析", "desc": "AI 数据处理和可视化" },
+    "ai-search": { "name": "AI 搜索", "desc": "AI 搜索引擎和信息检索" }
+  },
+  "home": {
+    "hero_search_placeholder": "搜索 AI 工具名称、功能或分类...",
+    "search_button": "搜索",
+    "featured_title": "⭐ 精选推荐",
+    "latest_title": "🆕 最新收录",
+    "view_all": "查看全部 →",
+    "cta_title": "有好的 AI 工具想要分享？",
+    "cta_desc": "提交你的工具，让更多中文用户发现它",
+    "cta_button": "提交工具",
+    "stats_tools": "收录工具",
+    "stats_categories": "工具分类",
+    "stats_reviews": "用户评测",
+    "stats_year": "持续运营"
+  },
+  "category": {
+    "title": "全部分类",
+    "subtitle": "按分类浏览 AI 工具",
+    "back": "← 全部分类",
+    "items_count": "{count} 个工具",
+    "empty": "该分类暂未收录工具",
+    "submit_link": "提交工具 →"
+  },
+  "tool": {
+    "featured_badge": "精选",
+    "visit_website": "访问官网 →",
+    "use_now": "立即使用",
+    "reviews_title": "用户评测",
+    "reviews_empty": "暂无评测，来写第一条吧",
+    "rating_stars": "{rating} 星",
+    "pros": "👍 优点",
+    "cons": "👎 缺点",
+    "features": "核心功能",
+    "description": "详细介绍",
+    "info": "工具信息",
+    "category_label": "分类",
+    "price_label": "价格",
+    "created_label": "收录时间",
+    "related": "同类推荐",
+    "recommended_by": "{count} 人推荐",
+    "breadcrumb_home": "首页",
+    "pricing_free": "免费",
+    "pricing_paid": "付费",
+    "pricing_freemium": "免费增值"
+  },
+  "tools": {
+    "chatgpt": {
+      "desc": "OpenAI 旗舰 AI 对话工具，支持文本生成、分析和创意写作",
+      "longDesc": "ChatGPT 是 OpenAI 开发的先进 AI 对话助手，基于 GPT 系列模型。它能够进行自然对话、回答问题、撰写文章、编写代码、翻译语言等多种任务。",
+      "features": ["多模态交互", "联网搜索", "文件上传分析", "DALL-E 图像生成", "语音对话"],
+      "pros": ["功能全面", "响应速度快", "持续更新", "免费版够用"],
+      "cons": ["中文理解偶有偏差", "Pro 版价格较高", "高峰期可能排队"],
+      "pricingDetail": "免费版可用 GPT-3.5，Plus $20/月，Pro $200/月"
+    },
+    "claude": {
+      "desc": "Anthropic 安全智能 AI 助手，擅长长文分析和代码",
+      "longDesc": "Claude 是 Anthropic 开发的 AI 助手系列，以安全性和长文本处理能力著称。Claude 3.5 Sonnet 在编程和推理任务上表现突出，支持 200K token 的超长上下文。",
+      "features": ["超长上下文", "代码质量高", "安全对齐", "Artifacts 功能", "项目协作"],
+      "pros": ["长文本无敌", "代码能力强", "安全性好", "中文流畅"],
+      "cons": ["文件上传限制", "无图像生成", "更新频率较低"],
+      "pricingDetail": "免费版可用，Pro $20/月，Team $25/人/月"
+    },
+    "github-copilot": {
+      "desc": "AI 编程助手，实时代码补全和生成",
+      "longDesc": "GitHub Copilot 是 GitHub 和 OpenAI 联合推出的 AI 编程助手，集成在 VS Code、JetBrains 等主流 IDE 中。支持代码补全、函数生成、测试编写、代码解释等功能。",
+      "features": ["实时代码补全", "多语言支持", "IDE 集成", "代码解释", "Chat 模式"],
+      "pros": ["大幅提升编码效率", "支持语言多", "与 IDE 深度集成"],
+      "cons": ["依赖网络", "有时生成不安全代码", "个人版偏贵"],
+      "pricingDetail": "个人 $10/月，企业 $19/用户/月"
+    },
+    "midjourney": {
+      "desc": "顶级 AI 图像生成工具，艺术风格出众",
+      "longDesc": "Midjourney 是目前最受欢迎的 AI 图像生成工具之一，以其独特的艺术风格和高品质输出著称。通过 Discord 使用，支持文生图和图生图。",
+      "features": ["文生图", "图生图", "风格一致", "放大和变体", "参数控制"],
+      "pros": ["图像质量极高", "艺术感强", "风格多样", "社区活跃"],
+      "cons": ["需通过 Discord 使用", "价格较高", "中文提示词效果一般"],
+      "pricingDetail": "基础 $10/月，标准 $30/月，专业 $60/月"
+    },
+    "suno": {
+      "desc": "AI 音乐生成工具，文字转完整歌曲",
+      "longDesc": "Suno 是领先的 AI 音乐生成平台，只需输入歌词和风格描述即可生成完整的歌曲，包括人声、乐器、混音。支持多种音乐流派和语言。",
+      "features": ["文字转音乐", "多种音乐风格", "多语言支持", "歌词编辑", "音频延长"],
+      "pros": ["创作门槛极低", "音乐质量惊艳", "风格丰富"],
+      "cons": ["免费额度少", "中文歌词发音偶有问题", "版权归属需注意"],
+      "pricingDetail": "免费每天 5 首，Pro $10/月（500首），Premier $30/月（2000首）"
+    },
+    "cursor": {
+      "desc": "AI-first 代码编辑器，内置智能编程功能",
+      "longDesc": "Cursor 是基于 VS Code 的 AI 原生代码编辑器，深度集成 AI 编程能力。支持 Tab 补全、多文件编辑、AI Chat、代码库理解等功能。",
+      "features": ["AI 补全", "多文件编辑", "代码库索引", "Agent 模式", "终端集成"],
+      "pros": ["编程效率提升显著", "代码理解准确", "免费版够用"],
+      "cons": ["基于 VS Code 有延迟", "大项目索引慢", "企业版定价偏高"],
+      "pricingDetail": "免费版可用，Pro $20/月"
+    },
+    "gemini": {
+      "desc": "Google 多模态 AI 助手，深度集成 Google 生态",
+      "longDesc": "Gemini 是 Google 开发的 AI 助手系列，支持文本、图像、音频、视频等多模态输入。",
+      "features": ["多模态输入", "Google 生态集成", "长上下文", "实时信息", "文件分析"],
+      "pros": ["免费版功能强", "与 Google 服务无缝集成", "多模态能力好"],
+      "cons": ["中文优化一般", "隐私担忧", "部分功能地区限制"],
+      "pricingDetail": "免费版可用，Advanced $19.99/月"
+    },
+    "perplexity": {
+      "desc": "AI 搜索引擎，带引用来源的实时答案",
+      "longDesc": "Perplexity 是 AI 驱动的搜索引擎，提供带引用来源的实时答案。",
+      "features": ["实时搜索", "引用来源", "研究模式", "文件上传分析", "合集整理"],
+      "pros": ["答案准确可溯源", "研究效率高", "免费版好用"],
+      "cons": ["深度不如 ChatGPT", "国内访问受限", "Pro 版优势不明显"],
+      "pricingDetail": "免费版可用，Pro $20/月"
+    },
+    "runway": {
+      "desc": "AI 视频生成和编辑平台，Gen-3 模型领先",
+      "longDesc": "Runway 是领先的 AI 视频生成平台，其 Gen-3 Alpha 模型能生成高质量视频内容。",
+      "features": ["文生视频", "图生视频", "视频编辑", "运动笔刷", "绿幕去除"],
+      "pros": ["视频质量行业领先", "专业工具集", "持续更新快"],
+      "cons": ["价格较高", "中文理解弱", "生成速度有待提升"],
+      "pricingDetail": "基础 $12/月，标准 $28/月，专业 $76/月"
+    },
+    "notion-ai": {
+      "desc": "集成 AI 的笔记和项目管理平台",
+      "longDesc": "Notion AI 将 AI 能力集成到 Notion 的笔记、文档和项目管理中。",
+      "features": ["AI 写作", "自动摘要", "翻译", "头脑风暴", "数据库 AI"],
+      "pros": ["与 Notion 深度集成", "写作辅助强", "团队协作好"],
+      "cons": ["需已有 Notion 订阅", "AI 功能偏基础", "国内访问慢"],
+      "pricingDetail": "AI 附加 $10/人/月"
+    },
+    "devin": {
+      "desc": "全自主 AI 软件工程师，能独立完成编程任务",
+      "longDesc": "Devin 是 Cognition Labs 推出的全自主 AI 软件工程师。它能理解复杂任务、编写代码、调试、部署。",
+      "features": ["自主编程", "调试修复", "部署上线", "技术学习", "项目管理"],
+      "pros": ["能独立完成项目", "减少人工编码", "持续学习"],
+      "cons": ["价格极高", "复杂项目仍需人工", "学习曲线陡"],
+      "pricingDetail": "起价 $500/月（企业定制定价）"
+    }
+  },
+  "search": {
+    "title": "搜索 AI 工具",
+    "placeholder": "输入工具名称或关键词...",
+    "button": "🔍 搜索",
+    "results": "搜索 \"{query}\"，找到 {count} 个结果",
+    "empty_title": "😕",
+    "empty_desc": "没有找到匹配的工具",
+    "submit_link": "提交工具 →",
+    "popular_categories": "热门分类",
+    "popular_tools": "热门工具",
+    "view_detail": "查看详情 →"
+  },
+  "submit": {
+    "title": "提交 AI 工具",
+    "subtitle": "推荐你喜欢的 AI 工具给更多中文用户。提交后我们审核通过即会收录。",
+    "name": "工具名称 *", "name_placeholder": "如：ChatGPT",
+    "url": "官方网址 *", "url_placeholder": "https://",
+    "description": "一句话简介 *", "description_placeholder": "用一句话描述这个工具",
+    "detail": "详细介绍", "detail_placeholder": "详细介绍工具的功能、适用场景等",
+    "category": "分类 *", "category_placeholder": "请选择分类",
+    "logo_url": "Logo 图片链接", "logo_url_placeholder": "https://",
+    "pricing_model": "价格模式", "pricing_placeholder": "请选择",
+    "pricing_free": "免费", "pricing_paid": "付费", "pricing_freemium": "免费增值",
+    "pricing_detail": "价格详情", "pricing_detail_placeholder": "如：免费版可用，Pro $20/月",
+    "submit_button": "提交审核",
+    "disclaimer": "提交即表示你同意我们对工具进行审核和编辑 ✨"
+  },
+  "pricing": {
+    "title": "推广合作",
+    "subtitle": "将你的 AI 工具展示给海量中文用户，提升品牌知名度和用户获取效率",
+    "stats_users": "月活用户", "stats_tools": "收录工具", "stats_chinese": "中文用户",
+    "free_plan_name": "免费收录", "free_plan_price": "¥0",
+    "free_features": ["基础信息展示", "按分类收录", "用户搜索可见", "用户评论功能"],
+    "free_cta": "提交工具",
+    "featured_plan_name": "精选收录", "featured_plan_price": "¥299", "featured_plan_period": "/月", "featured_badge": "推荐",
+    "featured_features": ["★ 免费收录所有功能", "首页精选推荐位", "分类页置顶展示", "Featured 标签", "社交媒体推广"],
+    "featured_cta": "联系合作",
+    "enterprise_plan_name": "企业定制", "enterprise_plan_price": "定制",
+    "enterprise_features": ["★ 精选收录所有功能", "首页 Hero 广告位", "专属评测文章", "API 数据接入", "品牌专属页面"],
+    "enterprise_cta": "联系我们",
+    "cta_title": "还不知道选哪个？",
+    "cta_desc": "所有新提交的工具都有 7 天免费展示期，效果好了再升级",
+    "cta_button": "先免费提交 →"
+  },
+  "footer": {
+    "tagline": "发现最好的 AI 工具，让 AI 赋能你的工作与生活。",
+    "browse": "浏览", "biz": "商务", "about": "关于",
+    "copyright": "© 2026 AIHub. 本站收录的 AI 工具版权归各自所有者所有。"
+  },
+  "about": {
+    "title": "关于 AIHub",
+    "subtitle": "发现最优秀的 AI 工具，让 AI 赋能你的工作与生活。",
+    "mission_title": "我们的使命",
+    "mission_desc": "AIHub 是一个专注于 AI 工具导航与评测的平台。我们精选全球优秀的 AI 产品，为中文用户提供客观、全面的工具评测和推荐。",
+    "features_title": "为什么选择 AIHub",
+    "features": [
+      "精选收录 — 人工筛选优质 AI 工具，确保质量",
+      "客观评测 — 真实用户评价，多维度评分体系",
+      "持续更新 — 追踪最新 AI 产品和技术趋势",
+      "中文优化 — 面向中文用户，本地化体验"
+    ],
+    "stats_tools": "收录 AI 工具",
+    "stats_categories": "覆盖分类",
+    "stats_reviews": "用户评测",
+    "team_title": "关于我们",
+    "team_desc": "AIHub 由一群热爱 AI 技术的工程师和产品经理创建。我们相信 AI 正在改变世界，希望能帮助更多人发现和使用优秀的 AI 工具。",
+    "contact_title": "联系我们",
+    "contact_desc": "如有问题或合作意向，欢迎通过以下方式联系我们",
+    "email": "hi@aihub.com",
+    "cta_title": "想推荐你的 AI 工具？",
+    "cta_button": "提交工具"
+  },
+  "common": {
+    "loading": "加载中...", "error": "出错了", "retry": "重试", "not_found": "页面不存在"
+  }
+}

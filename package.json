@@ -1,0 +1,28 @@
+{
+  "name": "aihub-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AIHub — AI tool directory & review platform monorepo",
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:web": "turbo dev --filter=@aihub/web",
+    "build": "turbo build",
+    "build:web": "turbo build --filter=@aihub/web",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "test:shared": "turbo test --filter=@aihub/shared",
+    "format": "prettier --write \"**/*.{ts,tsx,json,css,md}\"",
+    "clean": "turbo clean && rm -rf node_modules",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "prettier": "^3.2.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@9.1.0"
+}

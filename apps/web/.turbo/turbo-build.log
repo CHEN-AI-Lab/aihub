@@ -1,0 +1,45 @@
+
+> @aihub/web@1.0.0 build /home/ubuntu/workspace/websites/aihub/apps/web
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/28) ...
+   Generating static pages (7/28) 
+   Generating static pages (14/28) 
+   Generating static pages (21/28) 
+ ✓ Generating static pages (28/28)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ƒ /                                    1.87 kB         128 kB
+├ ƒ /_not-found                          872 B          88.2 kB
+├ ƒ /about                               935 B           113 kB
+├ ƒ /categories                          725 B           113 kB
+├ ● /categories/[slug]                   1.22 kB         128 kB
+├   ├ /categories/chatbot
+├   ├ /categories/image-generation
+├   ├ /categories/video-generation
+├   └ [+5 more paths]
+├ ƒ /pricing                             1.22 kB         113 kB
+├ ƒ /search                              1.33 kB         128 kB
+├ ƒ /submit                              868 B           119 kB
+└ ● /tools/[slug]                        1.97 kB         129 kB
+    ├ /tools/chatgpt
+    ├ /tools/claude
+    ├ /tools/github-copilot
+    └ [+8 more paths]
++ First Load JS shared by all            87.3 kB
+  ├ chunks/5b8f0dd8-0b7e1dd47e2a464c.js  53.6 kB
+  ├ chunks/749-561c4e8d873a5ad5.js       31.7 kB
+  └ other shared chunks (total)          1.96 kB
+
+
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+
