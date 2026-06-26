@@ -1,22 +1,32 @@
-#!/bin/bash
-# Check script — run all quality gates
-set -e
+#!/usr/bin/env bash
+# Quality gate check - run before every push
+set -euo pipefail
 
-echo "📦 Check 1: Project structure"
-find apps -path '*/node_modules' -prune -o -path '*/.next' -prune -o -type f -print 2>/dev/null | grep -E '(hooks|lib)/' || echo "✅ No hooks/lib in apps/"
-
+echo "🔍 Running quality gate checks..."
 echo ""
-echo "📦 Check 2: console.log in apps/"
-grep -rn "console\.log" apps/*/src/ 2>/dev/null && echo "⚠️ Found console.log!" || echo "✅ No console.log"
 
+# TypeScript check
+echo "📝 TypeScript check..."
+pnpm check || { echo "❌ TypeScript check failed"; exit 1; }
+echo "✅ TypeScript check passed"
 echo ""
-echo "📦 Check 3: Lint"
-pnpm lint 2>/dev/null && echo "✅ Lint passed" || echo "⚠️ Lint issues found (non-blocking if preview)"
 
+# Lint check
+echo "🔎 Lint check..."
+pnpm lint || { echo "❌ Lint check failed"; exit 1; }
+echo "✅ Lint check passed"
 echo ""
-echo "📦 Check 4: TypeScript"
-pnpm -r exec tsc --noEmit 2>/dev/null && echo "✅ TypeScript passed" || echo "⚠️ TS issues"
 
+# Run tests
+echo "🧪 Running tests..."
+pnpm test || { echo "❌ Tests failed"; exit 1; }
+echo "✅ Tests passed"
 echo ""
-echo "📦 Check 5: Test"
-pnpm test 2>/dev/null && echo "✅ Tests passed" || echo "⚠️ Tests failed"
+
+# Build check
+echo "🏗️  Build check..."
+pnpm build || { echo "❌ Build failed"; exit 1; }
+echo "✅ Build passed"
+echo ""
+
+echo "🎉 All quality gates passed!"
